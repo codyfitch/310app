@@ -13,6 +13,7 @@
 		501B0D3E224451F2000383CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501B0D3D224451F2000383CD /* Assets.xcassets */; };
 		501B0D41224451F2000383CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501B0D3F224451F2000383CD /* LaunchScreen.storyboard */; };
 		503E03D12246AF8400A904F3 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 503E03D02246AF8400A904F3 /* Resnet50.mlmodel */; };
+		50EDB4D8225050870049C047 /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDB4D7225050870049C047 /* VisionObjectRecognitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		501B0D40224451F2000383CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		501B0D42224451F2000383CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503E03D02246AF8400A904F3 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		50EDB4D7225050870049C047 /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				501B0D36224451F0000383CD /* AppDelegate.swift */,
 				501B0D38224451F0000383CD /* ViewController.swift */,
+				50EDB4D7225050870049C047 /* VisionObjectRecognitionViewController.swift */,
 				503E03D02246AF8400A904F3 /* Resnet50.mlmodel */,
 				501B0D3A224451F0000383CD /* Main.storyboard */,
 				501B0D3D224451F2000383CD /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				501B0D39224451F0000383CD /* ViewController.swift in Sources */,
+				50EDB4D8225050870049C047 /* VisionObjectRecognitionViewController.swift in Sources */,
 				503E03D12246AF8400A904F3 /* Resnet50.mlmodel in Sources */,
 				501B0D37224451F0000383CD /* AppDelegate.swift in Sources */,
 			);
